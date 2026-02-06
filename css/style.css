@@ -61,7 +61,7 @@ nav a {
   gap: 40px;
 }
 
-.hero .container {
+.hero .container .hero-details{
   margin-top: 40px;
   display: flex;
   align-items: center;
@@ -846,11 +846,12 @@ cursor:pointer;
     display: flex;
   }
 
-  .hero .container {
+  .hero .container .hero-details{
     flex-direction: column;
+    flex-direction: column-reverse;
   }
 
-  .hero-left {
+  .hero .hero-left {
     width: 100%;
     padding: 0;
     text-align: center;
@@ -869,8 +870,8 @@ cursor:pointer;
 
   .hero-img,
   .circle-bg {
-    width: 220px;
-    height: 220px;
+    width: 333px;
+    height: auto;
     margin: auto;
   }
 
@@ -973,8 +974,24 @@ cursor:pointer;
   }
 
   .av {
-    position: relative;
     margin: 10px auto;
+  }
+
+  .a1, .a2, .a3 {
+    width: 25%;
+    height: auto;
+  }
+
+  .a1 {
+
+  }
+
+  .a2 {
+
+  }
+
+  .a3 {
+
   }
 
   .hero-full {
